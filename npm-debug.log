@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'ejs' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'ejs', null ]
+5 verbose cache add name=undefined spec="ejs" args=["ejs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ejs',
+6 verbose parsed url   path: 'ejs',
+6 verbose parsed url   href: 'ejs' }
+7 silly lockFile 75eeca8f-ejs ejs
+8 verbose lock ejs /home/zack/.npm/75eeca8f-ejs.lock
+9 silly lockFile 75eeca8f-ejs ejs
+10 silly lockFile 75eeca8f-ejs ejs
+11 verbose addNamed [ 'ejs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bcdf6e5f-ejs ejs@
+14 verbose lock ejs@ /home/zack/.npm/bcdf6e5f-ejs.lock
+15 silly addNameRange { name: 'ejs', range: '*', hasData: false }
+16 verbose url raw ejs
+17 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+18 verbose url resolved https://registry.npmjs.org/ejs
+19 info trying registry request attempt 1 at 15:44:46
+20 http GET https://registry.npmjs.org/ejs
+21 http 200 https://registry.npmjs.org/ejs
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"AOBVZ6LVU721GSYDV0XLFHFR3"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '50019',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Fri, 11 Sep 2015 19:44:46 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '25',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-iad2144-IAD',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1442000686.268519,VS0,VE0',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'ejs', range: '*', hasData: true }
+24 silly addNameRange versions [ 'ejs',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.4',
+24 silly addNameRange     '0.8.5',
+24 silly addNameRange     '0.8.6',
+24 silly addNameRange     '0.8.8',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.0.3',
+24 silly addNameRange     '2.0.4',
+24 silly addNameRange     '2.0.5',
+24 silly addNameRange     '2.0.6',
+24 silly addNameRange     '2.0.7',
+24 silly addNameRange     '2.0.8',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.1.4',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '2.2.2',
+24 silly addNameRange     '2.2.3',
+24 silly addNameRange     '2.2.4',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '2.3.2',
+24 silly addNameRange     '2.3.3',
+24 silly addNameRange     '2.3.4' ] ]
+25 verbose addNamed [ 'ejs', '2.3.4' ]
+26 verbose addNamed [ '2.3.4', '2.3.4' ]
+27 silly lockFile 7d57aeaf-ejs-2-3-4 ejs@2.3.4
+28 verbose lock ejs@2.3.4 /home/zack/.npm/7d57aeaf-ejs-2-3-4.lock
+29 silly lockFile 3c500350-stry-npmjs-org-ejs-ejs-2-3-4-tgz https://registry.npmjs.org/ejs/-/ejs-2.3.4.tgz
+30 verbose lock https://registry.npmjs.org/ejs/-/ejs-2.3.4.tgz /home/zack/.npm/3c500350-stry-npmjs-org-ejs-ejs-2-3-4-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.3.4.tgz',
+31 verbose addRemoteTarball   '3c76caa09664b3583b0037af9dc136e79ec68b98' ]
+32 silly lockFile 3c500350-stry-npmjs-org-ejs-ejs-2-3-4-tgz https://registry.npmjs.org/ejs/-/ejs-2.3.4.tgz
+33 silly lockFile 3c500350-stry-npmjs-org-ejs-ejs-2-3-4-tgz https://registry.npmjs.org/ejs/-/ejs-2.3.4.tgz
+34 silly lockFile 7d57aeaf-ejs-2-3-4 ejs@2.3.4
+35 silly lockFile 7d57aeaf-ejs-2-3-4 ejs@2.3.4
+36 silly lockFile bcdf6e5f-ejs ejs@
+37 silly lockFile bcdf6e5f-ejs ejs@
+38 error Error: EACCES, mkdir '/home/zack/tmp/npm-16335-2n-tnzzK'
+38 error  { [Error: EACCES, mkdir '/home/zack/tmp/npm-16335-2n-tnzzK']
+38 error   errno: 3,
+38 error   code: 'EACCES',
+38 error   path: '/home/zack/tmp/npm-16335-2n-tnzzK' }
+39 error Please try running this command again as root/Administrator.
+40 error System Linux 3.16.0-48-generic
+41 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "ejs"
+42 error cwd /home/zack/tumblr_mailer
+43 error node -v v0.10.25
+44 error npm -v 1.3.10
+45 error path /home/zack/tmp/npm-16335-2n-tnzzK
+46 error code EACCES
+47 error errno 3
+48 error stack Error: EACCES, mkdir '/home/zack/tmp/npm-16335-2n-tnzzK'
+49 verbose exit [ 3, true ]
